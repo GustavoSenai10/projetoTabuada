@@ -3,25 +3,25 @@ package br.senai.sp.jandira;
 public class Tabuada {
 
 
-	public int multiplicador = 5;
-	public int maximoMultiplo;
-	public int minimoMultiplo;
+	public int multiplicador;
+	public int minimoMultiplicador;
+	public int maximoMultiplicador;
 	public int re;
 	
 	public String[] getTabuada() {
 	
-		int tamanho= maximoMultiplo - minimoMultiplo + 1;
+		int tamanho= maximoMultiplicador - minimoMultiplicador + 1;
 		String tabuada[] = new String[tamanho];
 		int i = 0;
-		while (minimoMultiplo <= maximoMultiplo) {
+		while (minimoMultiplicador <= maximoMultiplicador) {
 			
-			int produto = multiplicador*minimoMultiplo; 
+			int produto = multiplicador*minimoMultiplicador; 
 		
 		
-			String resultado = multiplicador + " X " + minimoMultiplo + "=" + produto;
+			String resultado = multiplicador + " X " + minimoMultiplicador + "=" + produto;
 			tabuada[i]=resultado;
 			
-			minimoMultiplo++;
+			minimoMultiplicador++;
 			i++;
 		
 	}

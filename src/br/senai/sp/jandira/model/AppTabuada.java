@@ -16,18 +16,18 @@ public class AppTabuada {
 		
 		Tabuada tabuada = new Tabuada();
 		
-		tabuada.multiplicador= 9;
-		tabuada.maximoMultiplo= 8;
-		tabuada.minimoMultiplo= 10;
+		//tabuada.multiplicador= 9;
+		//tabuada.maximoMultiplo= 8;
+		//tabuada.minimoMultiplo= 10;
 		
-		String[] resultado = tabuada.getTabuada();
+		//String[] resultado = tabuada.getTabuada();
 		
-		int i = 0;
+		//int i = 0;
 		
-		while (i< resultado.length) {
+		//while (i< resultado.length) {
 			
-			System.out.println(resultado[i]);
-			i++;
+			//System.out.println(resultado[i]);
+			//i++;
 		}
 		
 		
@@ -37,4 +37,4 @@ public class AppTabuada {
 	
 	}
 
-}
+
